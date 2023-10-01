@@ -26,7 +26,7 @@ export const DATA = {
   title:"Antiguo Egipto",
   consignas:[
     {
-      question: "Reino del sur de Egipto, al cual pertenece esta corona.",
+      question: "Reino del sur de Egipto anterior a la unificación, al cual pertenece esta corona.",
       answer: "alto egipto",
       img: img1
     },
@@ -36,22 +36,22 @@ export const DATA = {
       img: img2
     },
     {
-      question: "Dios encargado de acompañar a las almas en el Jucio de Osiris",
+      question: "Dios encargado de guiar a las almas en el Jucio de Osiris",
       answer: "anubis",
       img: img3
     },
     {
-      question: "Reino del norte de Egipto, al cual pertenece esta corona.",
+      question: "Reino del norte de Egipto anterior a la unificación, al cual pertenece esta corona.",
       answer: "bajo egipto",
       img: img4
     },
     {
-      question: "Grupo social encargado de las tareas agrícolas",
+      question: "Grupo social encargado de las tareas agrícolas. Pagaban impuestos a faraón",
       answer: "campesinos",
       img: img5
     },
     {
-      question: "3era etapa del Rio Nilo, donde se debe realizar el transporte y almacenamiento de lo producido",
+      question: "Tercera etapa del Rio Nilo durante los meses de marzo a junio, donde se debe realizar el transporte y almacenamiento de lo producido",
       answer: "cosecha",
       img: img6
     },
@@ -61,42 +61,42 @@ export const DATA = {
       img: img7
     },
     {
-      question: "Funcionarios del faraón, quienes debían aprender y realizar la escritura",
+      question: "Funcionarios del faraón, quienes debían aprender y realizar la escritura jeroglífica.",
       answer: "escribas",
       img: img8
     },
     {
-      question: "Responsable de la religión, el ejercito y la organización de las tareas agrícolas, era considerado un Dios.",
+      question: "Responsable de la religión, el ejercito y la organización de las tareas agrícolas. Rey de Egipto y considerado un dios.",
       answer: "faraón",
       img: img9
     },
     {
-      question: "Metodo de los egipcios para conseguir recursos que no tenían en sus tierras, como también para capturar esclavos.",
+      question: "Método de los egipcios para conseguir recursos que no tenían en sus tierras, como también para capturar esclavos.",
       answer: "guerra",
       img: img10
     },
     {
-      question: "Dios con cabeza de halcón y doble corona. Representaba al faraón.",
+      question: "Dios del cielo, con cabeza de halcón y doble corona. Representaba al faraón.",
       answer: "horus",
       img: img11
     },
     {
-      question: "1era etapa del río Nilo. Las aguas del río cubrian toda la región.",
+      question: "Primera etapa del río Nilo durante los meses de julio a octubre. Las aguas del río cubrian toda la región.",
       answer: "inundación",
       img: img12
     },
     {
-      question: "Nombre de los carácteres de la escritura egipcia",
+      question: "Nombre de los carácteres de la escritura egipcia.Representan una idea con un dibujo. Eran considerados sagrados.",
       answer: "jeroglíficos",
       img: img13
     },
     {
-      question: "Fertilizante natural que era depositado por el río Nilo durante la etapa de Inundación.",
+      question: "Fertilizante natural que era depositado por el río Nilo durante la etapa de inundación.",
       answer: "limo",
       img: img14
     },
     {
-      question: "Proceso realizado al cuerpo del faraón para que se mantenga intacto despúes de la muerte y pueda disfrutar de la vida eterna.",
+      question: "Proceso realizado por sacerdotes al cuerpo del faraón para que se mantenga intacto despúes de la muerte y pueda disfrutar de la vida eterna.",
       answer: "momificación",
       img: img15
     },
@@ -111,11 +111,11 @@ export const DATA = {
       img: img17
     },
     {
-      question: "Los egipcios tenían muchos dioses, es decir que eran...",
+      question: "Los egipcios creían en muchos dioses, es decir que eran...",
       answer: "politeístas",
       img: img18
     },{
-      question: "Dios más importante de la religión egipcia, representaba al sol.",
+      question: "Dios más importante de la religión egipcia, representaba al sol y la vida.",
       answer: "ra",
       img: img19
     }, {
@@ -123,7 +123,7 @@ export const DATA = {
       answer: "sacerdotes",
       img: img20
     }, {
-      question: "2da etapa del rio Nilo. Luego de la inundación la tierra quedaba cubierta de limo (fertilizante natural), lista para comenzar la producción agrícola.",
+      question: "Segunda etapa del rio Nilo durante los meses de noviembre a febrero. Luego de la inundación la tierra quedaba cubierta de limo (fertilizante natural), lista para comenzar la agricultura.",
       answer: "siembra",
       img: img21
     },

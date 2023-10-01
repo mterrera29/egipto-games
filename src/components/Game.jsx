@@ -141,6 +141,9 @@ function Game() {
                 passQuestion={passQuestion}
                 handleNext={handleNext}
               />
+              <section
+                style={{ display: 'flex', justifyContent: 'flex-start' }}
+              ></section>
             </section>
           </>
         )}
