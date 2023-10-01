@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import reloj from '../Images/reloj-de-arena.png';
 
 const Time = ({ win, isReload }) => {
   const [time, setTime] = useState({ minutes: 0, seconds: 0 });
@@ -58,8 +59,15 @@ const Time = ({ win, isReload }) => {
 
   return (
     <div className='tiempo'>
-      <h4>
-        ⏱{time.minutes}:{formatTimeUnit(time.seconds)}
+      <h4
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
+        <img style={{ width: '25px' }} src={reloj} alt='' />
+        {time.minutes}:{formatTimeUnit(time.seconds)}
       </h4>
     </div>
   );

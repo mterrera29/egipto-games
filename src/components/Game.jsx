@@ -7,6 +7,8 @@ import ImageContainer from './ImageContainer';
 import MenuInfo from './MenuInfo';
 import Questions from './Questions';
 import NavQuestions from './NavQuestions';
+import icon1 from '../Images/ojo-de-ra.png';
+import icon2 from '../Images/ladron-y-mayal.png';
 function Game() {
   const [shuffledConsignas, setShuffledConsignas] = useState(DATA.consignas);
   const [name, setName] = useState('');
@@ -85,7 +87,20 @@ function Game() {
   return (
     <>
       <header className='header animate__animated animate__fadeInDown'>
-        <h1>{DATA.title} </h1>
+        <h1>
+          <img
+            style={{ width: '30px', paddingRight: '3px' }}
+            src={icon1}
+            alt=''
+          />
+          {DATA.title}
+
+          <img
+            style={{ width: '30px', paddingLeft: '3px' }}
+            src={icon2}
+            alt=''
+          />
+        </h1>
       </header>
       <main className='mainGame'>
         <MenuInfo

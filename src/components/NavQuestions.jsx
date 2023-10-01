@@ -9,12 +9,12 @@ const NavQuestions = ({ isCorrect, notCorrect, passQuestion, handleNext }) => {
     >
       {!isCorrect && !notCorrect && (
         <div className='buttonPass' onClick={() => passQuestion()}>
-          <h3>Pasar</h3>
+          <h4>Pasar</h4>
         </div>
       )}
       {(isCorrect || notCorrect) && (
         <div className='buttonNext' onClick={handleNext}>
-          <h3>{'Siguiente >'}</h3>
+          <h4>{'Siguiente>'}</h4>
         </div>
       )}
     </section>
