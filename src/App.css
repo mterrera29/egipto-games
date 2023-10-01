@@ -1,0 +1,91 @@
+.header{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--oscuro);
+}
+.header h1{
+  font-size: 40px;
+}
+.mainGame{
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--oscuro);
+  margin-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.correctImg{
+  position: absolute;
+  font-size: 50px;
+  animation: bounceIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.5s;
+  color:#219221
+}
+
+.menu{
+  width: 100%;
+  color: var(--oscuro);
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+}
+.buttonPass{
+  width: 100px;  
+  background-color: var(--warning);
+  color:var(--fontClaro) ;
+  box-shadow:4px -4px var(--claro);
+  padding: 5px;
+  border-radius: 14px;
+  margin: 5px;
+  text-align: center;
+  padding: 0.2rem;
+  cursor: pointer;
+  font-size: 18px;
+}
+.buttonPass:hover{
+  background-color: #6d6c6d;
+}
+
+.buttonNext{
+  background-color: var(--oscuro);
+  color: var(--fontClaro);
+  box-shadow:4px -4px var(--claro);
+  height: min-content;
+  border-radius: 14px;
+  margin: 5px;
+  text-align: center;
+  padding: 0.2rem;
+  cursor: pointer;
+  font-size: 18px;
+}
+.buttonNext:hover{
+  background-color: var(--oscuroHover);
+}
+
+.buttonNext h3{
+  margin: 5px;
+}
+
+
+@media screen and (max-width: 1000px){
+  .mainGame{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .mainGame{
+    width: 100%;
+  }
+}

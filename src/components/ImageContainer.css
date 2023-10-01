@@ -1,0 +1,67 @@
+.imageContainer{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  max-height: 450px;
+  padding: 10px;
+}
+.image{
+  position: relative;
+  width: 100%;
+  border-radius: 14px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow:4px -4px var(--claro);
+  z-index: 1;
+}
+
+.answerHeader{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: var(--oscuro);
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.answerImg{
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  color: var(--fontClaro);
+}
+.imageQuestion{
+  width: 100%; /* La imagen ocupará el 100% del ancho del div contenedor */
+  height: 100%; /* La imagen ocupará el 100% de la altura del div contenedor */
+  object-fit: cover; /* La imagen se ajustará al ancho y alto del contenedor manteniendo su relación de aspecto */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.respuestaIcon{
+  width: 45px;
+  height: auto;
+  position: absolute;
+  bottom:0px;
+  right: -0px;
+  z-index: 100;
+}
+
+@media screen and (max-width: 700px){
+  .image{
+    min-width: 200px;
+    max-width: 400px;
+  }
+}

@@ -1,0 +1,62 @@
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  padding: 20px;
+  
+}
+
+.styled-table {
+  width: 100%;
+  margin: auto;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: var(--fontClaro);
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 8px;
+  text-align: center;
+}
+.modalPoints{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width:min-content;
+  max-height: 350px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  z-index: 3;
+  overflow-y: auto;
+  background-color: var(--oscuro);
+  box-shadow:4px -4px var(--claro);
+}
+.modalPoints > *{
+  font-size: 18px;
+}
+/* Estilos para la barra de desplazamiento vertical */
+.modalPoints::-webkit-scrollbar {
+  width: 8px; /* Ancho de la barra de desplazamiento */
+}
+
+.modalPoints::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color de la barra de desplazamiento */
+  border-radius: 4px; /* Radio de borde de la barra de desplazamiento */
+}
+
+.modalPoints::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color de la barra de desplazamiento al pasar el cursor sobre ella */
+}
+
+.modalPoints::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color de fondo de la pista de la barra de desplazamiento */
+  border-radius: 4px;
+}
+.winIcon{
+  width: 50px;
+  height: auto;
+  z-index: 5;
+}

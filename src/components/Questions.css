@@ -1,0 +1,61 @@
+.questions{
+  position: relative;
+  color: var(--fontClaro);
+  width: 100%;
+  height: fit-content;
+  border-radius: 14px;
+  text-align: center;
+  padding: 10px;
+   background-color: var(--oscuro);
+  box-shadow:4px -4px var(--claro); 
+  font-size: 20px;
+}
+.background{
+  padding: 10px;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.inputs h3{
+  font-size: 20px;
+}
+.inputForm > *{
+  margin: 5px;
+  font-size: 20px;
+}
+.inputText{
+  position: relative;
+  margin-top: 10px;
+}
+.emoji{
+  position: absolute;
+  top: 4px;
+  right: 0px;
+  font-size: 25px;
+}
+
+.input-style {
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #555;
+  outline: none;
+}
+
+.input-style:focus {
+  border-color: var(--oscuro);
+  box-shadow: 0 0 0 0.2rem var(--claro);
+}
+
+.tiempo{
+  color: var(oscuro);
+  font-size: 20px;
+}
