@@ -8,7 +8,7 @@
   padding: 10px;
    background-color: var(--oscuro);
   box-shadow:4px -4px var(--claro); 
-  font-size: 20px;
+  font-size: 18px;
 }
 .background{
   padding: 10px;
@@ -24,7 +24,7 @@
 }
 
 .inputs h3{
-  font-size: 20px;
+  font-size: 15px;
 }
 .inputForm > *{
   margin: 5px;
@@ -57,5 +57,5 @@
 
 .tiempo{
   color: var(oscuro);
-  font-size: 20px;
+  font-size: 17px;
 }

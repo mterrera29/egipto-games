@@ -3,8 +3,7 @@
   justify-content: center;
   position: relative;
   width: 100%;
-  max-width: 600px;
-  max-height: 450px;
+  max-height: 300px;
   padding: 10px;
 }
 .image{
@@ -51,7 +50,7 @@
 }
 
 .respuestaIcon{
-  width: 45px;
+  width: 40px;
   height: auto;
   position: absolute;
   bottom:0px;

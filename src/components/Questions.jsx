@@ -50,7 +50,7 @@ const Questions = ({
   return (
     <>
       <section className='questions'>
-        <h3>{question} </h3>
+        <h4>{question} </h4>
         <section className='inputs'>
           {!isCorrect && !notCorrect && (
             <section>

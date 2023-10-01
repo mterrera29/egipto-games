@@ -58,9 +58,9 @@ const Time = ({ win, isReload }) => {
 
   return (
     <div className='tiempo'>
-      <h3>
+      <h4>
         ⏱{time.minutes}:{formatTimeUnit(time.seconds)}
-      </h3>
+      </h4>
     </div>
   );
 };
