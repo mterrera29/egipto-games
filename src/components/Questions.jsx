@@ -55,7 +55,7 @@ const Questions = ({
           {!isCorrect && !notCorrect && (
             <section>
               <form onSubmit={handleSubmit} className='inputForm'>
-                <div className='tiempo'>
+                <div className='input-respuesta'>
                   <h3>Respuesta:</h3>
                 </div>
                 <article className='inputText'>
