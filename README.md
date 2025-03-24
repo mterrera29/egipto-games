@@ -24,28 +24,3 @@
 ## 🎯 Objetivo Educativo
 
 El principal objetivo de **Egipto Games** es proporcionar a los estudiantes de secundaria una forma entretenida de aprender sobre la historia de Egipto, su mitología, arquitectura y cultura. A través de juegos interactivos, los alumnos pueden disfrutar mientras desarrollan habilidades de pensamiento crítico y resolución de problemas.
-
-## ⚡ Instalación y Ejecución Local
-
-1. **Clona el repositorio**
-
-   ```sh
-   git clone https://github.com/mterrera29/egipto-games.git
-   cd egipto-games
-    ```
-
-2. **Instala las dependencias**
-
-   ```sh
-npm install
-# o
-yarn install
- ```
-
-Inicia el servidor de desarrollo
-
-   ```sh
-npm run dev
-# o
-yarn dev
-  ```
