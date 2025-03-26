@@ -23,6 +23,7 @@
 - **Vite**: Para un entorno de desarrollo rápido y eficiente.
 - **CSS**: Estilos simples para hacer la experiencia visualmente atractiva.
 - **JavaScript**: Para la lógica del juego y las interacciones.
+- - **Firebase**: Sistema de puntos utilizando base de datos.
 
 ## 🎯 Objetivo Educativo
 
