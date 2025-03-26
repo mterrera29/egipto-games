@@ -1,6 +1,6 @@
-# 🎮 Egipto Games - Aprende Jugando
+# 🎮 Egipto Games 
 
-¡Bienvenidos a **Egipto Games**, la plataforma interactiva donde los estudiantes de secundaria pueden aprender sobre la fascinante cultura egipcia mientras se divierten! Este sitio web está diseñado para ofrecer a los alumnos una manera divertida y educativa de sumergirse en el mundo de Egipto, todo mientras juegan y descubren.
+¡Bienvenidos a **Egipto Games**, la app interactiva donde los estudiantes de secundaria pueden aprender sobre la fascinante cultura egipcia mientras se divierten! Este sitio web está diseñado para ofrecer a los alumnos una manera divertida y educativa de sumergirse en el mundo de Egipto, todo mientras juegan y descubren.
 
 | ![Main](./public/img/main.png) | ![Game](./public/img/game.png) | ![Game Responsive](./public/img/game-responsive.png) |
 |----------------------------|---------------------------|--------------------------------|
